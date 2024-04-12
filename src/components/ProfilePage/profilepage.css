@@ -1,0 +1,128 @@
+/* General styling */
+.profile-page {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 3%;
+    display: flex;
+    font-size: 1.5rem;
+
+    justify-content: left;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+}
+
+
+
+h1 {
+    text-align: left;
+}
+
+.user-details {
+    text-align: left;
+}
+
+.profile-info {
+    display: grid;
+
+
+}
+
+#orderHist {
+    width: 100%;
+    font-size: 0.7rem;
+    cursor: pointer;
+
+}
+
+.orderHist-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+
+.profile-page button {
+    margin: 2% 0;
+    border: 1px solid black;
+}
+
+/* Order History */
+.order-item {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.order-details {
+    display: flex;
+    padding: 2%;
+}
+
+.product-img-profile-oh img {
+    height: 200px;
+    width: auto;
+
+
+}
+
+.product-img-profile-oh {
+    /* padding: 1%; */
+    padding-right: 2%;
+}
+
+.oh-details {
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.item-oh1 {
+    display: flex;
+    gap: 3%;
+}
+
+.item-oh2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .profile-info {
+        flex-direction: column;
+    }
+
+    .change-password button {
+
+        width: fit-content;
+        height: fit-content;
+        padding: 2%;
+    }
+
+
+    .order-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-img-profile-oh {
+        /* display: flex; */
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .product-img-profile-oh img {
+        margin: 1%;
+        align-self: center;
+    }
+}

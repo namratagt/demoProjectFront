@@ -1,0 +1,47 @@
+.empty {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.wishlist {
+    width: 80%;
+    margin: auto;
+}
+
+.wishlist h2 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.emp-wish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wishlist {
+    display: flex;
+    gap: 4%;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.wishlist-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.delete-wishlist {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+
+
+
+
+}
